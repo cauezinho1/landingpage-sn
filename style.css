@@ -1,24 +1,23 @@
-*{
+* {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
+
 body {
 background: url(imagens/foto-fundo.png) no-repeat top center/cover; 
-
 }
 
 :root {
   --textos-color: white;
   --caixa-color: rgba(16, 29, 39, 0.6);
   --hover-color: #2e4a61;
-
 }
 
 #container {
   width: 360px;
-  margin:auto;
-  padding-top: 56px ; 
+  margin: auto;
+  padding-top: 56px; 
 }
 
 /* Profile Section */
@@ -27,10 +26,12 @@ background: url(imagens/foto-fundo.png) no-repeat top center/cover;
   text-align: center;
   padding-top: 24px;
 }
+
 #profile img {
   width: 250px;
   margin-bottom: 55px;
 }
+
 #profile p {
   color: var(--textos-color);
   font-size: 18px;
@@ -50,6 +51,11 @@ ul {
   align-items: center;
   margin-top: 32px;
 }
+
+ul li {
+  margin-bottom: 20px;
+}
+
 ul li a{
   text-decoration: none;
   display: flex;
@@ -65,21 +71,19 @@ ul li a{
   font-size: 20px;
   -webkit-backdrop-filter: blur(4px);
   transition: background-color 0.3s, border 0.3s;
-
 }
 
 ul li a:hover {
   background-color: #2e4a61;
-  border:1px solid white;
+  border: 1px solid white;
 }
 
 #midia {
   margin-left: 39%;
   margin-top: 40px;
-  
 }
+
 audio {
-  margin-top: 40px;
   width: 280px;
   outline: none;
   margin-right: 50%;
