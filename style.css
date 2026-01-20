@@ -1,0 +1,95 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+background: url(imagens/foto-fundo.png) no-repeat top center/cover; 
+
+}
+
+:root {
+  --textos-color: white;
+  --caixa-color: rgba(16, 29, 39, 0.6);
+  --hover-color: #2e4a61;
+
+}
+
+#container {
+  width: 360px;
+  margin:auto;
+  padding-top: 56px ; 
+}
+
+/* Profile Section */
+
+#profile {
+  text-align: center;
+  padding-top: 24px;
+}
+#profile img {
+  width: 250px;
+  margin-bottom: 55px;
+}
+#profile p {
+  color: var(--textos-color);
+  font-size: 18px;
+  margin-top: 0px;
+  font-family: "Gochi Hand", cursive;
+  font-weight: 400;
+  font-size: 25px;
+  font-style: normal;
+}
+
+/* Links Section */
+
+ul {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 32px;
+}
+ul li a{
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 16px 24px;
+  background: var(--caixa-color);
+  color: var(--textos-color);
+  border: 1px solid var(--textos-color);
+  border-radius: 8px;
+  width: 280px;
+  font-weight: 600;
+  font-size: 20px;
+  -webkit-backdrop-filter: blur(4px);
+  transition: background-color 0.3s, border 0.3s;
+
+}
+
+ul li a:hover {
+  background-color: #2e4a61;
+  border:1px solid white;
+}
+
+#midia {
+  margin-left: 39%;
+  margin-top: 40px;
+  
+}
+audio {
+  margin-top: 40px;
+  width: 280px;
+  outline: none;
+  margin-right: 50%;
+}
+
+footer {
+  text-align: center;
+  margin-top: 40px;
+  margin-bottom: 20px;
+  color: var(--hover-color);
+}
+
+
