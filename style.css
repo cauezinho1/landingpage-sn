@@ -12,6 +12,7 @@ background: url(imagens/foto-fundo.png) no-repeat top center/cover;
   --textos-color: white;
   --caixa-color: rgba(16, 29, 39, 0.6);
   --hover-color: #2e4a61;
+  --black-color: #000000;
 }
 
 #container {
@@ -87,7 +88,7 @@ footer {
   text-align: center;
   margin-top: 40px;
   margin-bottom: 20px;
-  color: var(--hover-color);
+  color: var(--black-color);
 }
 
 
