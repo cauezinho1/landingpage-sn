@@ -32,12 +32,23 @@
   </ul>
 
 <div id="midia">
-  <audio src="audio/master-nao-vale-nada.wav" controls autoplay></audio>
+  <audio src="" controls autoplay></audio>
 </div>
 
 <footer>
-  <p>#Se liga ai que o papo é bom</p>
+  <p id="area" onmouseover="mudaCor()" onmouseout="voltaCor()">#Se liga ai que o papo é bom</p>
 </footer>
 
+<script>
+  var area = document.getElementById("area");
+  function mudaCor() {
+    area.style.color = "#2e4a61";
+  }
+  function voltaCor() {
+    area.style.color = "black";
+  }
+  
+</script>
+
 </body>
-</html>
+</html> 

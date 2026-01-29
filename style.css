@@ -26,6 +26,7 @@ background: url(imagens/foto-fundo.png) no-repeat top center/cover;
 #profile {
   text-align: center;
   padding-top: 24px;
+  
 }
 
 #profile img {
@@ -89,6 +90,17 @@ footer {
   margin-top: 40px;
   margin-bottom: 20px;
   color: var(--black-color);
+} 
+
+footer p {
+
+  color: var(--textos-color);
+  font-size: 18px;
+  font-family: "Gochi Hand", cursive;
+  font-weight: 400;
+  font-size: 20px;
+  font-style: normal;
+  padding: 10px;
+  border-radius: 8px;
+  transition: background-color 0.3s;
 }
-
-
